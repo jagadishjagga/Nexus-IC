@@ -64,16 +64,13 @@
       </plugins>
     </pluginManagement>
   </build>
-  <distributionManagement>
-    <repository>
-      <id>nexus</id>
-      <name>Releases</name>
-      <url>http://localhost:8081/repository/maven-releases</url>
-    </repository>
-    <snapshotRepository>
-      <id>nexus</id>
-      <name>Snapshot</name>
-      <url>http://54.165.79.67:8081/repository/jagadish/</url>
-    </snapshotRepository>
+
+ </distributionManagement>
+   <snapshotRepository>
+       <id>nexus</id>
+       <name>Snapshot releases</name>
+       <url>http:http://3.87.222.203:8081/repository/maven-snapshots/</url>
+   </snapshotRepository>
+
   </distributionManagement>
 </project>
